@@ -9,3 +9,7 @@ wheels/
 # Virtual environments
 .venv
 .env
+
+# Chroma vector store. Generated, not authored - rebuild it by running the
+# ingestion cells in RAG_PDF.ipynb (chunk_size=1000, all-MiniLM-L6-v2).
+Vector/
