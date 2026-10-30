@@ -165,7 +165,6 @@ def retrieve(
 
     return passages
 
-
 def format_context(passages: Sequence[Document]) -> str:
     """Render passages as numbered blocks the model can cite by index."""
     blocks = []
